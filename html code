@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikshitha's Webpage</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  
+  <header>
+    <h1>🌟 Welcome to My Webpage 🌟</h1>
+    <p>Hi, I'm <strong>Nikshitha Ramesh</strong> | CSE Student | Aspiring Web Developer & AI Enthusiast 🚀</p>
+  </header>
+
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am currently pursuing B.Tech in <strong>Computer Science</strong> at Vishnu Institute of Technology.  
+      I’m passionate about <strong>Web Development, Java, Artificial Intelligence</strong> and aspire to become an entrepreneur 💡.
+    </p>
+    <img src="https://via.placeholder.com/350x200.png?text=Web+Development+Journey" alt="Web Development Journey">
+  </section>
+
+  
+  <section id="learning">
+    <h2>My Learning Resources</h2>
+    <p>Some platforms that help me grow my skills:</p>
+    <ul>
+      <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+      <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+    </ul>
+  </section>
+
+  <section id="interactive">
+    <h2>Try My Interactive Buttons</h2>
+    <button onclick="showMessage()">Show Greeting 👋</button>
+    <button onclick="changeBackground()">Change Background 🎨</button>
+    <button onclick="showTime()">Show Current Time ⏰</button>
+    <button onclick="toggleTheme()">Toggle Dark Mode 🌙</button>
+    <p id="time"></p>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Nikshitha Ramesh | Built with 💻 & Passion for Learning</p>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
