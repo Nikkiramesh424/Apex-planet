@@ -1,0 +1,26 @@
+function showMessage() {
+  alert("Hello 👋 I am Nikshitha! Excited to learn and grow in Web Development.");
+}
+
+function changeBackground() {
+  const colors = ["#f4f8fc", "#ffe4e1", "#e0ffe0", "#f0e68c", "#d8bfd8", "#c8e6c9"];
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  document.body.style.background = randomColor;
+}
+
+function showTime() {
+  const now = new Date();
+  const time = now.toLocaleTimeString();
+  document.getElementById("time").textContent = "⏰ Current Time: " + time;
+}
+
+function toggleTheme() {
+  const body = document.body;
+  if (body.style.background === "black") {
+    body.style.background = "linear-gradient(to right, #e0f7fa, #f4f8fc)";
+    body.style.color = "#333";
+  } else {
+    body.style.background = "black";
+    body.style.color = "white";
+  }
+}
